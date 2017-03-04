@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="LunchCheck">
+  <head>
+    <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <title>Module 1 Assignment</title>
+  </head>
+  <body>
+    <div ng-controller="LunchCheckController">
+      <h1> Diet Check </h1>
+       Enter the values you usually eat for Lunch: <input type="text" ng-model="food">
+       <button ng-click="checkAmount()">Check if too much?</button><br><br>
+       NOTE : Empty value or spaces will not be considered as a food item. It will be ignored.
+    </div>
+
+  </body>
+</html>
